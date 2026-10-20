@@ -1,4 +1,3 @@
-Warning: fs was declared with const; use let for reassignable variables.
 # MISTERY DUO
 
 Een responsive website met HTML, CSS en JavaScript. De openbare pagina leest de bewerkbare inhoud uit `content/site.json`. Het beheerportaal staat in `admin/` en gebruikt Decap CMS met de beheerde Decap Turbo GitHub-backend.
