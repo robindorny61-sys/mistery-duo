@@ -1,0 +1,67 @@
+backend:
+  name: turbo-github
+  turbo_site_id: "VUL_HIER_DE_DECAP_TURBO_SITE_ID_IN"
+  branch: main
+media_folder: "images/uploads"
+public_folder: "images/uploads"
+locale: "nl"
+publish_mode: simple
+collections:
+  - name: "site"
+    label: "Website"
+    files:
+      - name: "content"
+        label: "Website-inhoud"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - { label: "Naam van de website", name: "siteName", widget: "string" }
+          - { label: "Logo", name: "logo", widget: "image", required: false }
+          - { label: "Hoofdtitel", name: "heroTitle", widget: "string" }
+          - { label: "Introductie op home", name: "heroText", widget: "text" }
+          - { label: "Introductietitel", name: "introTitle", widget: "string" }
+          - { label: "Introductietekst", name: "introText", widget: "text" }
+          - { label: "Titel video's", name: "videoTitle", widget: "string" }
+          - { label: "Toelichting video's", name: "videoNote", widget: "string" }
+          - label: "Video's"
+            name: "videos"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Titel", name: "title", widget: "string" }
+              - { label: "Categorie", name: "category", widget: "select", options: ["muziek", "achter-de-schermen", "momenten"] }
+              - { label: "Label op afbeelding", name: "label", widget: "string", required: false }
+              - { label: "Duur", name: "length", widget: "string", required: false }
+              - { label: "Videolink (optioneel)", name: "url", widget: "string", required: false }
+          - { label: "Titel liveoptredens", name: "liveTitle", widget: "string" }
+          - { label: "Toelichting liveoptredens", name: "liveText", widget: "text" }
+          - label: "Liveoptredens"
+            name: "liveShows"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Titel", name: "title", widget: "string" }
+              - { label: "Datum", name: "date", widget: "string" }
+              - { label: "Locatie", name: "venue", widget: "string" }
+              - { label: "Opnamelink (optioneel)", name: "url", widget: "string", required: false }
+          - { label: "Titel fanshop", name: "shopTitle", widget: "string" }
+          - { label: "Toelichting fanshop", name: "shopText", widget: "text" }
+          - label: "Producten"
+            name: "products"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Productcode (uniek)", name: "id", widget: "string" }
+              - { label: "Naam", name: "name", widget: "string" }
+              - { label: "Prijs (voorbeeld, EUR)", name: "price", widget: "number", value_type: "float", min: 0 }
+              - { label: "Beschrijving", name: "description", widget: "text" }
+              - { label: "Productafbeelding", name: "image", widget: "image", required: false }
+              - { label: "Symbool als er geen foto is", name: "symbol", widget: "string", required: false }
+          - { label: "Quote", name: "quote", widget: "string" }
+          - { label: "Over ons: titel", name: "aboutTitle", widget: "string" }
+          - { label: "Over ons: tekst", name: "aboutText", widget: "text" }
+          - { label: "Over ons: extra tekst", name: "aboutMore", widget: "text" }
+          - { label: "Over ons: foto", name: "aboutImage", widget: "image", required: false }
+          - { label: "Contact: titel", name: "contactTitle", widget: "string" }
+          - { label: "Contact: tekst", name: "contactText", widget: "text" }
+          - { label: "Contact: plaats", name: "contactLocation", widget: "string" }
