@@ -1,8 +1,16 @@
 {
   "aboutMore": "Meer persoonlijke verhalen en biografische details voegen we toe zodra die rechtstreeks door het duo zijn aangeleverd.",
   "shopTitle": "De fanshop",
-  "shopText": "Bekijk hier de beschikbare merchandise van MISTERY DUO.",
-  "products": [],
+  "shopText": "WIl jij vanalles hebben van Mistery duo?",
+  "products": [
+    {
+      "name": "Blauwe T-shirt Mannen ",
+      "price": 20,
+      "symbol": "T-shirt",
+      "id": "1",
+      "description": "Blauwe t-shirt voor mannen"
+    }
+  ],
   "heroText": "Natacha & Frank brengen muziek dichterbij. Ontdek hun wereld vol melodie, energie en mooie momenten.",
   "liveShows": [],
   "logo": "images/uploads/images.jpg",
@@ -10,13 +18,13 @@
   "liveTitle": "Live, zoals het bedoeld is.",
   "introTitle": "Een eigen sound, recht uit het hart.",
   "contactText": "Een vraag, een uitnodiging of gewoon even hallo zeggen? Neem contact met ons op.",
-  "videoNote": "Gebruik de filters en zoekfunctie om door de video's te bladeren.",
+  "videoNote": "Dit zijn voorbeeldkaarten. Voeg eigen video's en links toe om ze af te spelen.",
   "aboutImage": "",
   "siteName": "Mistery Duo",
   "contactLocation": "Blankenberge, West-Vlaanderen, België",
   "contactTitle": "Stuur ons een bericht.",
   "videos": [],
-  "liveText": "Volledige opnames van liveoptredens verschijnen hier zodra ze zijn toegevoegd.",
+  "liveText": "Dit zijn voorbeeldoptredens. Vul eigen titels, datums, locaties en opnames in.",
   "introText": "Van een intiem moment tot een zaal die meezingt: MISTERY DUO deelt de liefde voor muziek, live en online. Leer Natacha en Frank kennen en ontdek wat er op het programma staat.",
   "aboutText": "MISTERY DUO is het zangduo van Natacha en Frank uit Blankenberge. Met deze plek delen ze hun muziek, optredens en nieuws met iedereen die graag luistert.",
   "quote": "De mooiste momenten beleef je samen.",
