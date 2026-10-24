@@ -4,20 +4,13 @@ Een responsive website met HTML, CSS en JavaScript. De openbare pagina leest de 
 
 ## Lokaal bekijken
 
-Start in de projectmap `python -m http.server 8000` en open `http://localhost:8000`. De site leest dan de inhoud uit `content/site.json`. De admin kan pas aanmelden nadat Decap Turbo en de repository zijn gekoppeld.
+Start in de projectmap `python -m http.server 8000` en open `http://localhost:8000`. De site leest dan de inhoud uit `content/site.json`. De beheerlogin is ingesteld voor de gepubliceerde admin-URL; lokaal gebruik vereist dat lokale URL ook in de Turbo-site-instellingen wordt toegelaten.
 
-## Beveiligde admin activeren
+## Beveiligde admin
 
-De wachtwoordlogin loopt via Decap Turbo. Een wachtwoord wordt niet in de websitecode opgeslagen. Decap Turbo beheert de login en geeft het CMS via zijn GitHub-app toegang tot de gekoppelde repository.
+De admin is beschikbaar op [de live beheerpagina](https://robindorny61-sys.github.io/mistery-duo/admin/). Meld je aan met je Decap Turbo-account. De websitecode bevat geen wachtwoord. Decap Turbo verwerkt de login; de GitHub-app is beperkt geïnstalleerd voor `robindorny61-sys/mistery-duo`.
 
-1. Maak een account aan bij Decap Turbo en maak een organisatie aan.
-2. Verbind GitHub met de organisatie door de Decap Turbo GitHub-app te installeren voor deze repository.
-3. Maak in Turbo een site aan met deze repository, branch `main`, configpad `admin/config.yml` en de exacte gepubliceerde URL van `/admin/`.
-4. Kopieer de Site ID uit het siteoverzicht en vervang `VUL_HIER_DE_DECAP_TURBO_SITE_ID_IN` in `admin/config.yml`.
-5. Commit en push de wijziging. Zodra GitHub Pages heeft gepubliceerd, open je `https://<jouw-site>/admin/` en meld je aan met je Decap Turbo e-mailadres en wachtwoord.
-6. Nodig eventuele extra beheerders uit via de Decap Turbo-organisatie/site-instellingen.
-
-De Site ID en de GitHub-appkoppeling zijn nog niet ingevuld, omdat ze pas worden aangemaakt in jouw eigen Turbo-account. Zonder die eenmalige accountkoppeling blijft `/admin/` gesloten en kan het CMS niet bij de repository. Controleer in Turbo de toegangsrechten en beperk de koppeling tot deze repository. De Turbo-documentatie vermeldt momenteel een gratis startplan voor een site en een gebruiker; extra gebruikers kunnen een ander plan vereisen.
+De CMS-configuratie gebruikt branch `main` en `admin/config.yml`. Wijzigingen en afbeeldingen die via het CMS worden gepubliceerd, worden naar de repository geschreven; GitHub Pages publiceert daarna de bijgewerkte website. Voor extra beheerders gebruik je de leden- en toegangsinstellingen van de Turbo-organisatie/site.
 
 ## Wat via de admin kan worden aangepast
 
