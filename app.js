@@ -25,5 +25,5 @@ const contactForm=document.querySelector('#contact-form');
 prepareEmailFields(contactForm,'Nieuw contactbericht via de MISTERY DUO-website');
 const orderForm=document.querySelector('#order-form');
 prepareEmailFields(orderForm,'Nieuw bestelverzoek via de MISTERY DUO-website');
-orderForm.addEventListener('submit',()=>{const lines=products.filter(p=>cart[p.id]).map(p=>`${p.name} × ${cart[p.id]} — € ${(Number(p.price||0)*cart[p.id]).toFixed(2)}`);const total=products.reduce((sum,p)=>sum+Number(p.price||0)*(cart[p.id]||0),0);orderForm.querySelector('[name="bestelde_producten"]').value=lines.join('\\n');orderForm.querySelector('[name="totaal_indicatie_eur"]').value=total.toFixed(2)});
-fetch('content/site.json?v=20261024-4').then(response=>{if(!response.ok)throw Error('Content niet beschikbaar');return response.json()}).then(content=>{site={...fallback,...content};applySite()}).catch(()=>{site=fallback;applySite()});
+orderForm.addEventListener('submit',()=>{const lines=products.filter(p=>cart[p.id]).map(p=>`${p.name} × ${cart[p.id]} — € ${(Number(p.price||0)*cart[p.id]).toFixed(2)}`);const total=products.reduce((sum,p)=>sum+Number(p.price||0)*(cart[p.id]||0),0);orderForm.querySelector('[name="bestelde_producten"]').value=lines.join('\n');orderForm.querySelector('[name="totaal_indicatie_eur"]').value=total.toFixed(2)});
+fetch('content/site.json?v=20261024-5').then(response=>{if(!response.ok)throw Error('Content niet beschikbaar');return response.json()}).then(content=>{site={...fallback,...content};applySite()}).catch(()=>{site=fallback;applySite()});
