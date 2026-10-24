@@ -23,6 +23,10 @@ De CMS-configuratie gebruikt branch `main` en `admin/config.yml`. Wijzigingen en
 
 Publiceren via het CMS commit inhoud en afbeeldingen naar de gekoppelde branch; GitHub Pages publiceert de bijgewerkte statische site daarna.
 
+## Bestel- en contactverzoeken
+
+Contactberichten en bestelverzoeken worden via FormSubmit naar `robindorny61@gmail.com` gestuurd. Bij het eerste gebruik vraagt FormSubmit om het ontvangstadres te bevestigen; bevestig die activeringsmail voordat bezoekers het formulier gebruiken. FormSubmit verwerkt formuliergegevens. De contactmail staat daarom ook als endpoint in de openbare websitecode. Het winkelmandje verzendt alleen een vrijblijvend bestelverzoek met een prijsaanduiding. Er is geen betaling, voorraadbeheer of automatische orderbevestiging; bevestig beschikbaarheid, levering en prijs handmatig.
+
 ## Grenzen
 
-GitHub Pages kan de openbare site hosten; de wachtwoordlogin en beveiligde wijzigingstoegang worden geleverd door Decap Turbo. De contactpagina valideert invoer, maar verstuurt of bewaart geen berichten. Koppel daarvoor een backend of formulierdienst. Het mandje is een lokale demo; bestellen, voorraad en betalingen vragen een e-commercebackend en betaalprovider. Video's worden via aangeleverde links afgespeeld; er is geen video-upload of hostingdienst gekoppeld.
+GitHub Pages host de openbare site; de wachtwoordlogin en CMS-toegang lopen via Decap Turbo. Video's en liveopnames verschijnen zodra eigen links of opnames zijn toegevoegd. De contact- en bestelformulieren gebruiken FormSubmit als externe dienst.
