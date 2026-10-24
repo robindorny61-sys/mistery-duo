@@ -2,32 +2,7 @@
   "aboutMore": "Meer persoonlijke verhalen en biografische details voegen we toe zodra die rechtstreeks door het duo zijn aangeleverd.",
   "shopTitle": "De fanshop",
   "shopText": "Een kleine selectie voorbeeldartikelen. Productfoto's en details volgen zodra de officiële collectie klaar is.",
-  "products": [
-    {
-      "id": "shirt",
-      "name": "T-shirt",
-      "price": 24.95,
-      "description": "Voorbeeldartikel · beschikbare maten volgen",
-      "image": "",
-      "symbol": "MD"
-    },
-    {
-      "id": "tote",
-      "name": "Draagtas",
-      "price": 14.95,
-      "description": "Voorbeeldartikel · details volgen",
-      "image": "",
-      "symbol": "✦"
-    },
-    {
-      "id": "mug",
-      "name": "Mok",
-      "price": 12.95,
-      "description": "Voorbeeldartikel · details volgen",
-      "image": "",
-      "symbol": "M"
-    }
-  ],
+  "products": [],
   "heroText": "Natacha & Frank brengen muziek dichterbij. Ontdek hun wereld vol melodie, energie en mooie momenten.",
   "liveShows": [],
   "logo": "images/uploads/images.jpg",
