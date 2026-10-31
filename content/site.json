@@ -23,7 +23,15 @@
   "siteName": "Mistery Duo",
   "contactLocation": "Blankenberge, West-Vlaanderen, België",
   "contactTitle": "Stuur ons een bericht.",
-  "videos": [],
+  "videos": [
+    {
+      "title": "Optreden voor kerst 2025 in poperinge",
+      "category": "muziek",
+      "label": "Muziek",
+      "length": "1:42",
+      "url": "https://www.facebook.com/reel/3427759570697919/?fs=e&s=TIeQ9V&fs=e&fs=e"
+    }
+  ],
   "liveText": "Dit zijn voorbeeldoptredens. Vul eigen titels, datums, locaties en opnames in.",
   "introText": "Van een intiem moment tot een zaal die meezingt: MISTERY DUO deelt de liefde voor muziek, live en online. Leer Natacha en Frank kennen en ontdek wat er op het programma staat.",
   "aboutText": "MISTERY DUO is het zangduo van Natacha en Frank uit Blankenberge. Met deze plek delen ze hun muziek, optredens en nieuws met iedereen die graag luistert.",
