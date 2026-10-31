@@ -35,6 +35,7 @@ collections:
               - { label: "Videolink (optioneel)", name: "url", widget: "string", required: false }
           - { label: "Titel liveoptredens", name: "liveTitle", widget: "string" }
           - { label: "Toelichting liveoptredens", name: "liveText", widget: "text" }
+          - { label: "YouTube-livestreamlink", name: "youtubeLiveUrl", widget: "string", required: false, hint: "Start je livestream in YouTube Studio, kies Delen en plak hier de kijklink. Klik daarna op Gepubliceerd. Leeg dit veld na afloop en publiceer opnieuw om de speler te verbergen." }
           - label: "Liveoptredens"
             name: "liveShows"
             widget: "list"

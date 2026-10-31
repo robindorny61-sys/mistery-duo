@@ -12,6 +12,16 @@ De admin is beschikbaar op [de live beheerpagina](https://robindorny61-sys.githu
 
 De CMS-configuratie gebruikt branch `main` en `admin/config.yml`. Wijzigingen en afbeeldingen die via het CMS worden gepubliceerd, worden naar de repository geschreven; GitHub Pages publiceert daarna de bijgewerkte website. Voor extra beheerders gebruik je de leden- en toegangsinstellingen van de Turbo-organisatie/site.
 
+## YouTube-livestream snel tonen
+
+1. Start of plan de uitzending in YouTube Studio.
+2. Kopieer de kijklink van de uitzending (deel-link, geen stream key).
+3. Open [de beheerpagina](https://robindorny61-sys.github.io/mistery-duo/admin/), ga naar **Website-inhoud** en plak de link in **YouTube-livestreamlink**.
+4. Klik **Gepubliceerd**. De speler verschijnt in de sectie **Live** zodra GitHub Pages klaar is met publiceren.
+5. Na de uitzending: maak het veld leeg en klik opnieuw op **Gepubliceerd** om de speler weg te halen.
+
+Gebruik een openbare of niet-vermelde YouTube-uitzending. Een privé-uitzending kan voor bezoekers geblokkeerd zijn. Plak nooit een stream key op de website; alleen de kijklink.
+
 ## Wat via de admin kan worden aangepast
 
 - Sitenaam en logo.
